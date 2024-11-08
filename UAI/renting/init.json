@@ -1,0 +1,68 @@
+{
+    "context": {
+      "domain": "equipement-renting:uai",
+      "location": {
+        "country": {
+            "name": "IND"
+          }
+      },
+      "action": "init",
+      "version": "1.1.0",
+      "bap_id": "{bap_id}",
+      "bap_uri": "{bap_url}",
+      "bpp_id": "{bpp_id}",
+      "bpp_uri": "{bpp_url}",
+      "message_id": "6104c0a3-d1d1-4ded-aaa4-76e4caf727ce",
+      "transaction_id": "8100d125-76a7-4588-88be-81b97657cd09",
+      "timestamp": "2023-11-06T09:41:09.708Z",
+      "ttl": "PT10M"
+    },
+    "message": {
+      "order": {
+        "provider": {
+          "id": "1"
+        },
+        "items": [
+          {
+            "id": "1",
+            "quantity": {
+              "selected": {
+                "measure" : {
+                  "unit" : "Acres",
+                  "value": "10"
+                }
+              }
+            }
+          }
+        ],
+        "fulfillments": [
+          {
+            "id": "f1",
+            "stops": [
+                {
+                    "location": {
+                        "gps": "23.23234, 24.2424"
+                    },
+                    "time": {
+                        "timestamp": "2023-11-06T09:41:09.708Z"
+                    }
+                }
+            ],
+            "customer": {
+                "person": {
+                    "name": "Madhavan"
+                },
+                "contact": {
+                    "phone": "8130xxxxxx"
+                }
+            }
+          }
+        ],
+        "billing": {
+            "name": "Madhvan",
+            "phone" : "8130xxxxxx",
+            "email" : "Mad@example.com" 
+        }
+      }
+    }
+  }

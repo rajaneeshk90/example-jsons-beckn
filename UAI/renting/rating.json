@@ -1,0 +1,29 @@
+{
+    "context": {
+        "domain": "equipement-renting:uai",
+        "location": {
+            "country": {
+                "name": "IND"
+            }
+        },
+        "action": "rating",
+        "version": "1.1.0",
+        "bap_id": "{bap_id}",
+        "bap_uri": "{bap_url}",
+        "bpp_id": "{bpp_id}",
+        "bpp_uri": "{bpp_url}",
+        "message_id": "6104c0a3-d1d1-4ded-aaa4-76e4caf727ce",
+        "transaction_id": "8100d125-76a7-4588-88be-81b97657cd09",
+        "timestamp": "2023-11-06T09:41:09.708Z",
+        "ttl": "PT10M"
+    },
+    "message": {
+        "ratings": [
+            {
+                "id": "19a02a67-d2f0-4ea7-b7e1-b2cf4fa57f56",
+                "rating_category": "Provider",
+                "value": "5"
+            }
+        ]
+    }
+}

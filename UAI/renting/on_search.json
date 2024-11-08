@@ -1,0 +1,246 @@
+{
+    "context": {
+        "domain": "agricultural-renting:uai",
+        "location": {
+            "country": {
+                "name": "IND"
+            }
+        },
+        "action": "on_search",
+        "version": "1.1.0",
+        "bap_id": "{bap_id}",
+        "bap_uri": "{bap_url}",
+        "bpp_id": "{bpp_id}",
+        "bpp_uri": "{bpp_url}",
+        "message_id": "6104c0a3-d1d1-4ded-aaa4-76e4caf727ce",
+        "transaction_id": "8100d125-76a7-4588-88be-81b97657cd09",
+        "timestamp": "2023-11-06T09:41:09.708Z",
+        "ttl": "PT10M"
+    },
+    "message": {
+        "catalog": {
+            "descriptor": {
+                "name": "Agricultural Aggregator",
+                "short_desc": "",
+                "long_desc": "",
+                "images": [
+                    {
+                        "url": "https://image_url"
+                    }
+                ]
+            },
+            "providers": [
+                {
+                    "id": "1",
+                    "descriptor": {
+                        "name": "Provider 1",
+                        "short_desc": "",
+                        "long_desc": "",
+                        "images": [
+                            {
+                                "url": "https://image_url"
+                            }
+                        ]
+                    },
+                    "categories": [
+                        {
+                            "id": "c1",
+                            "descriptor": {
+                                "code": "Agri Services",
+                                "name": "Agri Services"
+                            }
+                        }
+                    ],
+                    "fulfillments": [
+                        {
+                            "id": "f1",
+                            "type": "Delivery"
+                        },
+                        {
+                            "id": "f2",
+                            "type": "Self-Pickup"
+                        }
+                    ],
+                    "locations": [
+                        {
+                            "id": "l1",
+                            "gps": "23.11355, 24.32344"
+                        },
+                        {
+                            "id": "l2",
+                            "gps": "24.11355, 23.32344"
+                        },
+                        {
+                            "id": "l3",
+                            "gps": "24.24434, 23.24234"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "descriptor": {
+                                "images": [
+                                    {
+                                        "url": "https://image_url"
+                                    }
+                                ],
+                                "name": "sprayer and tractor",
+                                "short_desc": "Our Tractor-Mounted Sprayer Service provides efficient, uniform application of pesticides, herbicides, and fertilizers across large fields.",
+                                "long_desc": "Designed to enhance crop health and maximize yield, this service ensures precise chemical distribution, reducing waste and promoting optimal growth. Perfect for large-scale farms looking to protect crops and boost productivity with minimal manual effort."
+                            },
+                            "price": {
+                                "currency": "INR/Acre",
+                                "value": "300.0"
+                            },
+                            "rating": "4.2",
+                            "creator": {
+                                "descriptor": {
+                                    "name": "Sandip"
+                                }
+                            },
+                            "location_ids": [
+                                "l1"
+                            ],
+                            "category_ids": [
+                                "c1"
+                            ],
+                            "fulfillment_ids": [
+                                "f1"
+                            ],
+                            "tags": [
+                                {
+                                    "descriptor": {
+                                        "name": "stage"
+                                    },
+                                    "list": [
+                                        {
+                                            "value": "Land Preparation"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": "experience"
+                                    },
+                                    "list": [
+                                        {
+                                            "value": "3 Years"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "descriptor": {
+                                "images": [
+                                    {
+                                        "url": "https://image_url"
+                                    }
+                                ],
+                                "name": "sprayer and harvester,",
+                                "short_desc": "Our Tractor-Mounted Sprayer and Harvester Service combines crop protection and harvesting efficiency in one seamless solution.",
+                                "long_desc": "With precision spraying for pest, weed, and nutrient management, followed by high-speed harvesting, this service streamlines your crop cycle. Ideal for large-scale farms, it minimizes crop loss, saves time, and ensures maximum yield, enabling healthier, ready-to-market crops with minimal manual labor."
+                            },
+                            "price": {
+                                "currency": "INR/Acre",
+                                "value": "400.0"
+                            },
+                            "rating": "3.8",
+                            "creator": {
+                                "descriptor": {
+                                    "name": "Bhagwan Wane"
+                                }
+                            },
+                            "location_ids": [
+                                "l2"
+                            ],
+                            "category_ids": [
+                                "c1"
+                            ],
+                            "fulfillment_ids": [
+                                "f1"
+                            ],
+                            "tags": [
+                                {
+                                    "descriptor": {
+                                        "name": "stage"
+                                    },
+                                    "list": [
+                                        {
+                                            "value": "Land Preparation"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": "experience"
+                                    },
+                                    "list": [
+                                        {
+                                            "value": "2 Years"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3",
+                            "descriptor": {
+                                "images": [
+                                    {
+                                        "url": "https://image_url"
+                                    }
+                                ],
+                                "name": "sprayer and drones",
+                                "short_desc": "Our Drone-Integrated Sprayer Service offers advanced, precise application of pesticides, herbicides, and fertilizers across fields with minimal ground disruption.",
+                                "long_desc": "Equipped for efficient aerial spraying, drones reach areas difficult for traditional machinery, ensuring thorough crop protection and optimal nutrient delivery. Ideal for modern farms seeking to reduce labor, save time, and improve crop health through smart, targeted spraying."
+                            },
+                            "price": {
+                                "currency": "INR/Acre",
+                                "value": "600.0"
+                            },
+                            "rating": "3.5",
+                            "creator": {
+                                "descriptor": {
+                                    "name": "Ajinkya Sonavane"
+                                }
+                            },
+                            "location_ids": [
+                                "l2"
+                            ],
+                            "category_ids": [
+                                "c1"
+                            ],
+                            "fulfillment_ids": [
+                                "f1"
+                            ],
+                            "tags": [
+                                {
+                                    "descriptor": {
+                                        "name": "stage"
+                                    },
+                                    "list": [
+                                        {
+                                            "value": "Land Preparation"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": "experience"
+                                    },
+                                    "list": [
+                                        {
+                                            "value": "4 Years"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
